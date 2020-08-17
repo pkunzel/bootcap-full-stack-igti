@@ -1,0 +1,57 @@
+:root {
+  --blueBlockColor: rgb(97, 235, 212);
+  --grayBlockColor: rgb(100, 100, 100);
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.divBlock {
+  padding: 10px;
+}
+
+.divBlock label,
+.divBlock input {
+  display: block;
+  width: 100%;
+}
+
+.divBlock input{
+  height:30px;
+}
+
+.divBlock input:disabled {
+  font-weight: bold;
+}
+
+.blueBlock label {
+  color: var(--blueBlockColor);
+}
+
+.blueBlock input {
+  border: none;
+  border-bottom: 2px solid var(--blueBlockColor);
+}
+
+.grayBlock label {
+  color: var(--grayBlockColor);
+}
+
+.grayBlock input {
+  border: none;
+  border-bottom: 2px solid var(--grayBlockColor);
+}
+
+.orange {
+  color: rgb(235, 175, 97);
+}
+
+.red{
+  color: rgb(235, 97, 97);
+}
+
+.blue{
+  color:rgb(97, 235, 212);
+}
