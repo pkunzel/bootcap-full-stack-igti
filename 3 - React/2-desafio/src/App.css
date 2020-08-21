@@ -1,36 +1,49 @@
-h1{
+h1 {
   text-align: center;
   font-size: 40px;
 }
 
-.gridContainer{
+.gridContainer {
   margin-top: 20px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
 
-.resultContainer{
+.resultContainer {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
 }
 
-.resultItem{
+.resultItem {
+  margin: 5px;
   border: 1px dotted lightgray;
   padding: 3px;
+  display: grid;
+  grid-template-columns: 20% 80%;
 }
 
-.divInputBlock{
+.resultItem span {
+  text-align: center;
+  align-self: center;
+}
+
+.resultItem p {
+  margin: 2px;
+}
+
+.divInputBlock {
   /* border-bottom: 1px solid lightgray; */
   padding: 15px;
 }
 
-.divInputBlock label, .divInputBlock input{
+.divInputBlock label,
+.divInputBlock input {
   display: block;
 }
 
-.divInputBlock input{
-  border:none;
+.divInputBlock input {
+  border: none;
   border-bottom: 1px solid lightgray;
-  width:100%;
+  width: 100%;
   line-height: 20px;
 }
