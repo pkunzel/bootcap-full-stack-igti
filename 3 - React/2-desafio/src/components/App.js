@@ -51,9 +51,6 @@ class ListInstallments {
     };
 }
 
-//let dataContext = React.createContext(installments);
-
-
 function App() {
     let installments = new ListInstallments();
 
