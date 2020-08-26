@@ -1,17 +1,15 @@
-import React from 'react';
-import InputBlock from './InputBlock.js'
-import '../App.css';
+import React from "react";
+import InputBlock from "./InputBlock.js";
+import "../App.css";
 
 function GridContainer(props) {
-    //props.installments.setTotal.bind(this.props.installments);
-
-    return (
-        <div className="gridContainer">
-            <InputBlock updateData={props.installments.setTotal} label="Montante Inicial" />
-            <InputBlock updateData={props.installments.setInterest} label="Taxa de Juros Mensal" />
-            <InputBlock updateData={props.installments.setNumberInstallments} label="Período (Meses)" />
-        </div>
-    )
+	return (
+		<div className="gridContainer">
+			<InputBlock updateData={props.installments.setTotal} label="Montante Inicial" />
+			<InputBlock updateData={props.installments.setInterest} label="Taxa de Juros Mensal" />
+			<InputBlock updateData={props.installments.setNumberInstallments} label="Período (Meses)" />
+		</div>
+	);
 }
 
 export default GridContainer;
