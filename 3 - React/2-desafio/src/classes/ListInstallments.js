@@ -44,3 +44,5 @@ class ListInstallments {
 		console.log(this.data);
 	}
 }
+
+export default ListInstallments;
